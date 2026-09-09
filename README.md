@@ -1,0 +1,1 @@
+Complete 42 Libft project implemented in C, including all required functions and following 42 School Norminette standards. 
