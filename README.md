@@ -1,6 +1,6 @@
 *This activity has been created as part of the 42 curriculum by mumansou.*
 
-## Description
+# Description
 
 Libft is a foundational C project from the 42 curriculum where the goal is to build your own static C library.
 
@@ -10,9 +10,9 @@ The main purpose of this project is to deeply understand how common C functions 
 
 The output of this project is a static library called libft.a.
 
-## Instructions
+# Instructions
 
-### Compilation
+## Compilation
 
 To compile the library, run:
 
@@ -20,11 +20,12 @@ make
 
 This will generate the file libft.a at the root of the repository.
 
-### Makefile Rules
+## Makefile Rules
 
 The Makefile includes the following rules:
 
 - make or make all: compile the library
+- make bonus: compile the library with bonus functions
 - make clean: remove object files
 - make fclean: remove object files and libft.a
 - make re: rebuild the library from scratch
@@ -33,7 +34,7 @@ All files are compiled using the flags:
 
 -Wall -Wextra -Werror
 
-### Usage
+## Usage
 
 To use the library in your project:
 
@@ -47,11 +48,11 @@ And run it with:
 
 ./test
 
-## Library Content
+# Library Content
 
 The library is composed of three main parts:
 
-### 1. Libc Functions Reimplementation
+## 1. Libc Functions Reimplementation
 
 Reimplementation of standard C library functions, all prefixed with ft_, such as:
 
@@ -70,7 +71,7 @@ ft_atoi, ft_toupper, ft_tolower
 Allocation-based functions:
 ft_calloc, ft_strdup
 
-### 2. Additional Utility Functions
+## 2. Additional Utility Functions
 
 Functions not present in libc or implemented differently:
 
@@ -86,7 +87,7 @@ ft_strmapi, ft_striteri
 File descriptor output:
 ft_putchar_fd, ft_putstr_fd, ft_putendl_fd, ft_putnbr_fd
 
-### 3. Linked List Functions
+## 3. Linked List Functions
 
 A full set of functions to manipulate singly linked lists using the t_list structure:
 
@@ -102,20 +103,20 @@ ft_lstdelone, ft_lstclear
 Iteration and mapping:
 ft_lstiter, ft_lstmap
 
-## Technical Notes
+# Technical Notes
 
 - No global variables are used.
-- All heap-allocated memory is properly freed.
+- Memory is handled carefully and allocated memory is freed when required.
 - Helper functions are declared as static when needed.
 - The library is built using ar, as required.
 
-## Resources
+# Resources
 
 - man pages for standard C library functions
 - GNU C Library Documentation
 - 42 Intranet documentation for the libft project
 
-### AI Usage
+## AI Usage
 
 AI was used only as a learning support tool to:
 
@@ -124,7 +125,7 @@ AI was used only as a learning support tool to:
 
 No code was blindly copied, and all implementations were written and understood by the author.
 
-## Author
+# Author
 
 Mu'taz Mansour
 42 Student
