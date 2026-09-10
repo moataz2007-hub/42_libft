@@ -1,4 +1,4 @@
-*This activity has been created as part of the 42 curriculum by mowaiodat.*
+*This activity has been created as part of the 42 curriculum by mumansou.*
 
 ## Description
 
@@ -126,5 +126,5 @@ No code was blindly copied, and all implementations were written and understood 
 
 ## Author
 
-Mohammad Oweidat
+Mu'taz Mansour
 42 Student
